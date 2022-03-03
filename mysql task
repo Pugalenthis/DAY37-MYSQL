@@ -1,0 +1,40 @@
+CREATE DATABASE `zen records`;
+
+CREATE TABLE `zen records`.`students collection` (`id` INT(20) NOT NULL AUTO_INCREMENT ,`name` VARCHAR(20) NOT NULL,PRIMARY KEY(`id`))
+
+
+INSERT INTO `students collection` VALUES(NULL,"pugal");
+INSERT INTO `students collection` VALUES(NULL,"ram");
+INSERT INTO `students collection` VALUES(NULL,"bindharan");
+INSERT INTO `students collection` VALUES(NULL,"kishore");
+INSERT INTO `students collection` VALUES(NULL,"aravind");
+
+
+CREATE TABLE `zen records`.`batch collection` (`id` INT(20) NOT NULL AUTO_INCREMENT ,`batch_name` VARCHAR(20) NOT NULL,PRIMARY KEY(`id`))
+
+
+INSERT INTO `batch collection` VALUES(NULL,"b30wd");
+INSERT INTO `batch collection` VALUES(NULL,"b30wd");
+INSERT INTO `batch collection` VALUES(NULL,"b31wd");
+INSERT INTO `batch collection` VALUES(NULL,"b31wd");
+INSERT INTO `batch collection` VALUES(NULL,"b30wd");
+
+
+CREATE TABLE `zen records`.`task collection` (`id` INT(20) NOT NULL AUTO_INCREMENT ,`tasks_collected` VARCHAR(20) NOT NULL,PRIMARY KEY(`id`))
+
+INSERT INTO `task collection` VALUES (NULL,"14")
+INSERT INTO `task collection` VALUES (NULL,"15")
+INSERT INTO `task collection` VALUES (NULL,"18")
+INSERT INTO `task collection` VALUES (NULL,"15")
+INSERT INTO `task collection` VALUES (NULL,"14")
+
+
+
+CREATE TABLE `zen records`.`mentor collection` (`id` INT(20) NOT NULL AUTO_INCREMENT ,`mentor_name` VARCHAR(20) NOT NULL,PRIMARY KEY(`id`))
+
+
+INSERT INTO `mentor collection` VALUES (NULL,"mohan")
+INSERT INTO `mentor collection` VALUES (NULL,"akbhar")
+INSERT INTO `mentor collection` VALUES (NULL,"mohan")
+INSERT INTO `mentor collection` VALUES (NULL,"manigandan")
+INSERT INTO `mentor collection` VALUES (NULL,"mohan")
